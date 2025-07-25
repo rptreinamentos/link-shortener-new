@@ -14,6 +14,7 @@ class Link:
         self.id = id
         self.short_code = short_code
         self.original_url = original_url
+        self.target_url = target_url
         self.created_at = created_at
         self.description = description
 
@@ -85,6 +86,7 @@ class Link:
             "id": self.id,
             "short_code": self.short_code,
             "original_url": self.original_url,
+            "target_url": self.target_url,
             "created_at": self.created_at,
             "description": self.description
         }
