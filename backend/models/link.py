@@ -37,6 +37,7 @@ class Link:
         data = {
             "short_code": short_code,
             "original_url": original_url,
+            "target_url": original_url,
             "description": description
         }
         
